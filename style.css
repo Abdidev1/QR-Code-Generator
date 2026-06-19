@@ -41,3 +41,52 @@ body {
     border-radius: 0;
     box-shadow: 5px 5px 0px #000;
 }
+
+.qr-box h2 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.qr-box input {
+    width: 100%;
+    padding: 12px;
+    background-color: #e0ffd0;
+    border: 2px solid #000;
+    border-radius: 0;
+    font-size: 14px;
+    color: #000;
+    outline: none;
+    margin-bottom: 18px;
+}
+
+.qrbox button {
+    width: 100%;
+    padding: 14px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.qr-box button:hover {
+    background-color: #222;
+}
+
+#qr-result {
+    margin-top: 25px;
+    display: none;
+    justify-content: center;
+}
+
+#qr-result img {
+    background-color: #fff;
+    padding: 12px;
+    border: 2px solid #000;
+    border-radius: 0;
+    width: 160px;
+    height: 160px;
+}
