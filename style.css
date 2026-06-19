@@ -13,3 +13,31 @@ body {
     min-height: 100vh;
     padding: 20px;
 }
+
+.wrapper {
+    width: 100%;
+    max-width: 440px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 26px;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 6px;
+}
+
+.header p {
+    font-size: 13px;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.qr-box {
+    background-color: #00ff66;
+    border: 2px solid #000;
+    padding: 30px 24px;
+    border-radius: 0;
+    box-shadow: 5px 5px 0px #000;
+}
